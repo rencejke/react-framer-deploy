@@ -72,7 +72,7 @@ const Home = () => {
         </div>
 
         <div className='img-banner md:size-[100%] xs:order-1 xs:w-[300px] xs:mx-auto xs:mb-2'>
-        <motion.img src="../../public/home-img.png" alt="" 
+        <motion.img src="./home-img.png" alt="" 
           initial={{ opacity: 0, y: -20 }}
           animate = {{ opacity: 1, y: 0 }}
           transition = {{ delay: 1 }}
