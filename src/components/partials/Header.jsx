@@ -23,10 +23,10 @@ const Header = () => {
         md:pt-0 md:px-0 md:pb-0 md:h-auto md:flex  md:justify-center` }>
         <ul className='md:flex md:flex-row md:gap-12 xs:flex xs:flex-col xs:gap-8 xs:text-[20px] cursor-pointer'>
             <Link to='/'><li>Home</li></Link>
-            <Link to='/courses'><li>Courses</li></Link>
-            <Link to='/teach'><li>Services</li></Link>
-            <Link to='/receiveUpdates'><li>Updates</li></Link>
-            <Link to='/whyUs'><li>Why us?</li></Link>
+            <Link to='/react-framer-deploy/courses'><li>Courses</li></Link>
+            <Link to='/react-framer-deploy/teach'><li>Services</li></Link>
+            <Link to='/react-framer-deploy/receiveUpdates'><li>Updates</li></Link>
+            <Link to='/react-framer-deploy/whyUs'><li>Why us?</li></Link>
         </ul>
         <button className='absolute top-8 right-5 text-lg md:hidden' onClick={handleShowNav}><FaTimes/></button>
        </nav>   
