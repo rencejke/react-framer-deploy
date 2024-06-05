@@ -29,9 +29,13 @@ const ReceiveUpdates = () => {
               <div>
                 <div className='relative'>
                 <input type="text" placeholder='Enter Your Email Address' className='md:w-[50%] xs:w-[100%]
-                 py-[20px] px-6 rounded-2xl outline-none placeholder:pl-3 md:placeholder:text-[18px] xs:placeholder:text-[14px]'/>
-                 <Link><button className=' btn absolute md:left-[960px] xs:left-[240px] md:top-[8px] xs:top-[7px] md:bottom-[8px] xs:bottom-[7px]  md:px-11  md:text-[18px] md:mt-0
-                  z-[9999] xs:px-3 md:py-2 rounded-2xl xs:text-[16px]'>Subscribe</button></Link>
+                 py-[20px] px-6 md:rounded-2xl rounded-md outline-none placeholder:pl-3 md:placeholder:text-[18px] xs:placeholder:text-[14px]'/>
+                 <Link><button className=' btn md:absolute md:left-[960px] xs:left-[210px] md:top-[8px] xs:top-[7px] md:bottom-[8px] xs:bottom-[7px] 
+                  md:px-11  md:text-[18px] md:mt-0
+                  z-[9999] xs:px-3 md:py-2 md:rounded-2xl xs:text-[16px]
+                  w-full mt-5 rounded-md
+                  
+                  '>Subscribe</button></Link>
                 </div>
               </div>
               </motion.div>
